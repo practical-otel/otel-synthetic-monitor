@@ -16,7 +16,7 @@ builder.Services.AddSingleton<Monitor>();
 
 builder.Services.AddOpenTelemetry()
     .ConfigureResource(resource => resource
-        .AddService("PracticalOtel.SyntheticMonitor.AzureFunction"))
+        .AddService("azurefunction-monitor"))
     .UseOtlpExporter()
     .WithTracing(tracerProviderBuilder => tracerProviderBuilder
         .AddSource(DiagnosticConfig.Source.Name)

@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticalOtel.SyntheticMoni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticalOtel.SyntheticMonitor.Service", "src\PracticalOtel.SyntheticMonitor.Service\PracticalOtel.SyntheticMonitor.Service.csproj", "{9B8FE672-D631-483B-8470-0A22065BCA72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticalOtel.SyntheticMonitor.AppHost", "src\PracticalOtel.SyntheticMonitor.AppHost\PracticalOtel.SyntheticMonitor.AppHost.csproj", "{AB288369-1445-4035-AFA1-296558257F7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,10 @@ Global
 		{9B8FE672-D631-483B-8470-0A22065BCA72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B8FE672-D631-483B-8470-0A22065BCA72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B8FE672-D631-483B-8470-0A22065BCA72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB288369-1445-4035-AFA1-296558257F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB288369-1445-4035-AFA1-296558257F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB288369-1445-4035-AFA1-296558257F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB288369-1445-4035-AFA1-296558257F7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 		{971F70B7-72FA-F838-8B3D-CE7530B6A5A7} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{55E7D15F-EB02-4717-9026-7A985DA7C258} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{9B8FE672-D631-483B-8470-0A22065BCA72} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{AB288369-1445-4035-AFA1-296558257F7F} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0FF9586D-8893-48EA-8F1B-4CE62ECFF183}

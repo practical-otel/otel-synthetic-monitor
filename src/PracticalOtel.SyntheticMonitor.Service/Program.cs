@@ -27,7 +27,7 @@ var hostBuilder = Host.CreateDefaultBuilder(args)
                 .AddService("PracticalOtel.SyntheticMonitor.Service"))
             .UseOtlpExporter()
             .WithTracing(tracerProviderBuilder => tracerProviderBuilder
-                .AddSource(PracticalOtel.SyntheticMonitor.DiagnosticConfig.Source.Name)
+                .AddSource(DiagnosticConfig.Source.Name)
             );
     });
 
